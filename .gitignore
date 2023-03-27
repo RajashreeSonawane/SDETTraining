@@ -1,0 +1,7 @@
+bin/
+.settings/
+.idea/
+.project/
+.classpath/
+simple.iml/
+out/
