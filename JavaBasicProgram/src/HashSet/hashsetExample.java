@@ -2,6 +2,10 @@ package HashSet;
 
 import java.util.HashSet;
 
+/**
+ * problem statement:
+ * write program for hashSet in java.
+ */
 public class hashsetExample {
     public static void main(String[] args) {
         HashSet<String> hashSet = new HashSet<String>();
@@ -16,3 +20,12 @@ public class hashsetExample {
         }
     }
 }
+
+/**
+ * output
+ * HashSet:
+ * Health
+ * For
+ * Good
+ */
+

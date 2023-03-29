@@ -2,6 +2,10 @@ package TreeSet;
 
 import java.util.TreeSet;
 
+/**
+ * problem statement:
+ * write program for treeSet in java
+ */
 public class treeSetExample {
     public static void main(String[] args) {
         TreeSet<String> treeset = new TreeSet<String>();
@@ -16,3 +20,11 @@ public class treeSetExample {
         }
     }
 }
+
+/**
+ * output:
+ * TreeSet :
+ * Apple
+ * Banana
+ * Pear
+ */
