@@ -1,16 +1,15 @@
-package Assignment;
+package EqualNumberOccurances;
 
 public class EqualOccurances {
     public static boolean EqualNumberOccurances(String input) {
         boolean output = true;
         int firstCount = 1;
-        int secondCount = 1;
         for (int count = 0; count < input.length(); count++) {
-            char c = input.charAt(count);
-
+            char search = input.charAt(count);
+            int secondCount = 1;
             for (int i = 0; i < input.length(); i++) {
                 if (count == i) continue;
-                if (c == input.charAt(i)) {
+                if (search == input.charAt(i)) {
                     if (count == 0) {
                         firstCount++;
                     }
@@ -28,9 +27,9 @@ public class EqualOccurances {
 
     public static void main(String[] args) {
         boolean output = EqualNumberOccurances("abacbc");
-        if (output == false) System.out.println("All characters have not equal number of occurances");
+        if (output == false) System.out.println("All Characters Have Different Number of Occurrences");
 
-        else System.out.println("All characters having equal number of occurances");
+        else System.out.println("All Characters Have Equal Number of Occurrences");
     }
 }
 
