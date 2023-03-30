@@ -1,4 +1,4 @@
-package Interface;
+package JavaInterface;
 
 /**
  * problem statement:
